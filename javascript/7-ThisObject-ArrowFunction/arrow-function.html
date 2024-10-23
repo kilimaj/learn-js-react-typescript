@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Who is "this" object</h1>
+    <p>
+        <ul>
+            <li>In most cases, the value of this is determined by how a function is called</li>
+            <li>In simple terms this object refers to the parent object where you call the function unless you use "binding"</li>
+        </ul>
+    </p>
+    <h1>Arrow Functions</h1>
+    <p>
+        <ul>
+            <li>Is a compact alternative to a traditional function expression, but is limited and can't be used in all situations</li>
+            <li>In simple terms this object refers to the parent object where you call the function unless you use "binding"</li>
+            <li><h2>Limitations</h2>
+                <ul>
+                    <li>Does not have its own bindings to this or super.</li>
+                    <li>Does not have arguments object.</li>
+                    <li>Not suitable for call, apply and bind methods.</li>
+                    <li>Can not be used as constructors</li>
+                    <li>Can not use yield, within its body</li>
+                    <li>Do not default this to the window scope, rather they <b>execute in the scope they are created</b></li>
+                </ul>
+            </li>
+        </ul>
+    </p>
+    <script src="./arrow-function.js"></script>
+</body>
+</html>
