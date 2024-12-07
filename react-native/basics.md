@@ -44,8 +44,8 @@ npx react-native start --reset-cache
 
 '''eslint
 module.exports = {
-..., 
-//Add this section 
+...,
+//Add this section
 // --------
 rules: {
 'prettier/prettier': [
