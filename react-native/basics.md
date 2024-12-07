@@ -39,3 +39,21 @@ npx react-native start --reset-cache
 - Close metro bundler and run the command to run-android or run-ios
 
 - If doesn't work open the clean-all-mac.sh and run the scripts
+
+- make sure to add the following to the .eslintrc.js file
+
+'''eslint
+module.exports = {
+..., 
+//Add this section 
+// --------
+rules: {
+'prettier/prettier': [
+  'error',
+  {
+    endOfLine: 'auto',
+  },
+],
+// --------
+}
+'''
