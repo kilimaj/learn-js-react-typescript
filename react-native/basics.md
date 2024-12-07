@@ -3,7 +3,7 @@
 - To create a new project, you can use the following command:
 
 '''npm
-npx react-native@lates init ProjectName
+npx react-native@latest init ProjectName
 '''
 
 - The above is deprecated.
@@ -39,6 +39,11 @@ npx react-native start --reset-cache
 - Close metro bundler and run the command to run-android or run-ios
 
 - If doesn't work open the clean-all-mac.sh and run the scripts
+
+'''bash
+sudo chmod 777 ./clean-all-mac.sh
+'''
+
 
 - make sure to add the following to the .eslintrc.js file
 
