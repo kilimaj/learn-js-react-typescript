@@ -21,4 +21,9 @@ sampleref.test = 'test';
 console.log("sampleref:", sampleref);
 console.log("copySampleref", copySampleref);
 //As can be seen both sampleref and copySampleref have the value test 
-// Tha is because when you copy an object it copies its reference memory adrress and not the values
+// That is because when you copy an object it copies its reference memory adrress and not the values
+
+// Reference constant values can be edited because they store reference to location in memory not actual value
+const arr = [1, 'new']
+arr.push(4)
+console.log(arr)
