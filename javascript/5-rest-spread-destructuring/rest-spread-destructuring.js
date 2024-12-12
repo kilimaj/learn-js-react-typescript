@@ -66,7 +66,7 @@ const otherFruits = fruits.filter((value, index) => index !== 0);
 //With Destructuring
 const { name: newName = "Jean", address, ...otherDetails } = userDetails; // this is same as const newName = userDetails.name can also overide value with default value that will only pick if the original object does not have a key name
 
-console.log(newName);
+console.log("newName: ",newName);
 console.log(address);
 console.log(otherDetails);
 
