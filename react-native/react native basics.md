@@ -2,28 +2,29 @@
 
 - To create a new project, you can use the following command:
 
-'''npm
+```zsh
 npx react-native@latest init ProjectName
-'''
+```
 
 - The above is deprecated.
 
-'''npm
+```zsh
 npx @react-native-community/cli@latest init ProjectName
-'''
+```
 
 - This will create a new project with the name "ProjectName" and install all the required dependencies
 
 - Then cd into the project directory
 
-'''node
+```zsh
 npx react-native run-ios
-'''
+```
+
 OR
 
-'''node
+```zsh
 npx react-native run-android
-'''
+```
 
 OR
 
@@ -32,33 +33,28 @@ OR
 
 If encounter errors , try to run the following command:
 
-''' npx
+```zsh
 npx react-native start --reset-cache
-'''
+```
 
 - Close metro bundler and run the command to run-android or run-ios
 
 - If doesn't work open the clean-all-mac.sh and run the scripts
 
-'''bash
+```zsh
 sudo chmod 777 ./clean-all-mac.sh
-'''
-
+```
 
 - make sure to add the following to the .eslintrc.js file
 
-'''eslint
-module.exports = {
-...,
+```script
 //Add this section
 // --------
 rules: {
 'prettier/prettier': [
-  'error',
-  {
-    endOfLine: 'auto',
-  },
+'error',
+{
+endOfLine: 'auto',
+},
 ],
-// --------
-}
-'''
+```
