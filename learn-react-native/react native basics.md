@@ -51,10 +51,10 @@ sudo chmod 777 ./clean-all-mac.sh
 //Add this section
 // --------
 rules: {
-'prettier/prettier': [
-'error',
-{
-endOfLine: 'auto',
-},
-],
+  'prettier/prettier': [
+    'error',
+    {
+      endOfLine: 'auto',
+    },
+  ],
 ```
