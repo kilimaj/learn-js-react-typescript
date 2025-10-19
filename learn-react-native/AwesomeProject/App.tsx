@@ -57,6 +57,20 @@ function App() {
             <Text>Hello World!</Text>
           </View>
         </View>
+        <Text
+          style={{
+            color: '#ff0000',
+            fontFamily: 'Arial',
+            fontSize: 20,
+            fontStyle: 'italic',
+            fontWeight: '100',
+            letterSpacing: 10,
+            lineHeight: 50,
+            textAlign: 'right',
+          }}
+        >
+          Text Styling
+        </Text>
       </SafeAreaView>
     </SafeAreaProvider>
   );
