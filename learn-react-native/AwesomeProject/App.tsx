@@ -29,6 +29,13 @@ function App() {
             // marginBottom: 100,
             marginHorizontal: 50,
             marginVertical: 50,
+            padding: 10,
+            // paddingTop: 50,
+            // paddingLeft: 100,
+            // paddingRight: 10,
+            // paddingBottom: 10,
+            paddingHorizontal: 50,
+            paddingVertical: 50,
           }}
         >
           <Text>Hi, I just completed my first React Native Assignment</Text>
