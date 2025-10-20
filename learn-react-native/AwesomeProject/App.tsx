@@ -7,6 +7,7 @@
 
 import { Text, View } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import MyText from './components/MyText/MyText';
 
 function App() {
   return (
@@ -71,6 +72,8 @@ function App() {
         >
           Text Styling
         </Text>
+
+        <MyText />
       </SafeAreaView>
     </SafeAreaProvider>
   );
