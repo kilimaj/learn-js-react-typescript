@@ -5,29 +5,16 @@
  * @format
  */
 
-import { Text, View } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
-import MyText from './components/MyText/MyText';
+import Item from './components/Item/item';
 
 const App = () => {
   return (
     <SafeAreaProvider>
       <SafeAreaView>
-        <View>
-          <Text
-            style={{ color: 'yellow', backgroundColor: 'blue', height: 100 }}
-          >
-            This is going to be our header container
-          </Text>
-        </View>
-        <View style={{ backgroundColor: 'gray' }}>
-          <MyText />
-          <MyText />
-          <MyText />
-        </View>
-        <View>
-          <Text style={{ color: 'blue' }}>All rights reserved</Text>
-        </View>
+        <Item name={'Table'} price={20} />
+        <Item name={'Chair'} price={20} />
+        <Item name={'Desk'} price={50} />
       </SafeAreaView>
     </SafeAreaProvider>
   );
